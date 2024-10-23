@@ -5,7 +5,7 @@ using namespace std;
 struct Node{
     int data;
     Node* next;
-    Node(int n):data(n),next(nullptr){}
+    Node(int n):data(n),next(nullptr){};
 };
 
 void push(Node*& head,int data){
