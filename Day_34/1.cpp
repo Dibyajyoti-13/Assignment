@@ -5,7 +5,7 @@ struct Node
 {
     int data;
     Node *next;
-    Node(int a) : data(a), next(nullptr) {};
+    Node(int a) : data(a), next(nullptr) {}
 };
 
 void insert(Node *&head, int data)
